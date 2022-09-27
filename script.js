@@ -99,3 +99,15 @@ switch(num) {
         console.warn("not here");
 }
 
+
+// QA COMMUNITY ITERATION EXERCISE
+// RECREATE THIS FLOW CHART AS LOOP
+
+let A= 100
+while(A > 200){
+    console.log("A");
+    A++;
+}
+for (let A = 100; A > 200; A++){
+    console.log("A")
+}
