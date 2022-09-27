@@ -118,7 +118,7 @@ console.log(totalMoney, totalLeftToPay);
 
 let m = 100;
 while (m <=200) {
-    is (a % 2 == 0) {
+    if (a % 2 == 0){
         console.log("-");
     } else {
         console.log("*");
