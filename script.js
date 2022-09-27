@@ -29,21 +29,22 @@ console.log(totalMoney, totalLeftToPay);
 
 
 //ASCI- automatic semicolon insersation
+//// !! FROM HERE UNDO THE //
 
-let a1= 1;
-let b1 = 1;
+// let a1= 1;
+// let b1 = 1;
 
-a1
-++
-b1
+// a1
+// ++
+// b1
 
-console.log(`a= ${a1}\nb = ${b1}`);
+// console.log(`a= ${a1}\nb = ${b1}`);
 
-let c1 = 1;
-let d1 = 1;
+// let c1 = 1;
+// let d1 = 1;
 
-c++; d;
-console.log(`a= ${c1}\nd = ${d1}`);
+// c++; d;
+// console.log(`a= ${c1}\nd = ${d1}`);
 
 //ITERATION
 
@@ -52,62 +53,75 @@ console.log(`a= ${c1}\nd = ${d1}`);
 //FOR 
 //uses counter 
 //runs while a condition is met
-for (let i = 0; i < 3; i++){
-    console.log(`i = ${i}`);
-}
+// !! FROM HERE UNDO THE //
+// for (let i = 0; i < 3; i++){
+//     console.log(`i = ${i}`);
+// }
 
 //WHILE
 //WORKS WITH BOOLEANS 
 //RUN UNTIL A CONDITION IS NO LONGER TRUE 
 
-let condition = true;
-let increment = 0;
-while(condition === true) {
-    console.log(`increment = ${increment}`);
+// let condition = true;
+// let increment = 0;
+// while(condition === true) {
+//     console.log(`increment = ${increment}`);
 
-    if(increment === 3) {
-        condition = false
-    }
-}
+//     if(increment === 3) {
+//         condition = false
+//     }
+// }
 
 // DO WHILE 
 //LIKE WHILE LOOP 
 //BUT IT WILL ALWAYS RUN AT LEAST ONCE 
-
-let aa = false;
-do{
-    console.log("run forest run");
-} while (aa === true);
+// !! FROM HERE UNDO THE //
+// let aa = false;
+// do{
+//     console.log("run forest run");
+// } while (aa === true);
 
 //SWITCH CASES
 //RUN UNTIL A BREAK OR RETURN 
 //CAN BE MORE EFFECTIVE THAN LARGE 'IF ELSE IF' STATEMENT 
-
-let num = 1
-switch(num) {
-    case 0:
-        console.log("number is zero");
-        break;
-    case 1:
-        console.log("we are number one");
-    case 4:
-        console.log("we are at 4");
-    case 10:
-        console.log("we made it to ten")
-        break;
-    default:
-        console.warn("not here");
-}
+// !! FROM HERE UNDO THE //
+// let num = 1
+// switch(num) {
+//     case 0:
+//         console.log("number is zero");
+//         break;
+//     case 1:
+//         console.log("we are number one");
+//     case 4:
+//         console.log("we are at 4");
+//     case 10:
+//         console.log("we made it to ten")
+//         break;
+//     default:
+//         console.warn("not here");
+// }
 
 
 // QA COMMUNITY ITERATION EXERCISE
 // RECREATE THIS FLOW CHART AS LOOP
+// !! FROM HERE UNDO THE //
+// let aaa= 100
+// while(aaa >= 200){
+//     console.log("A");
+//     aaa++;
+// }
+// for (let aaa = 100; aaa > 200; aaa++){
+//     console.log("A")
+// }
 
-let A= 100
-while(A > 200){
-    console.log("A");
-    A++;
-}
-for (let A = 100; A > 200; A++){
-    console.log("A")
+// create a method that can print out the numbers 1- 10 ten times each 
+
+let m = 100;
+while (m <=200) {
+    is (a % 2 == 0) {
+        console.log("-");
+    } else {
+        console.log("*");
+    }
+    m++;
 }
