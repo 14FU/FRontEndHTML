@@ -60,4 +60,42 @@ for (let i = 0; i < 3; i++){
 //WORKS WITH BOOLEANS 
 //RUN UNTIL A CONDITION IS NO LONGER TRUE 
 
-let condition 
+let condition = true;
+let increment = 0;
+while(condition === true) {
+    console.log(`increment = ${increment}`);
+
+    if(increment === 3) {
+        condition = false
+    }
+}
+
+// DO WHILE 
+//LIKE WHILE LOOP 
+//BUT IT WILL ALWAYS RUN AT LEAST ONCE 
+
+let aa = false;
+do{
+    console.log("run forest run");
+} while (aa === true);
+
+//SWITCH CASES
+//RUN UNTIL A BREAK OR RETURN 
+//CAN BE MORE EFFECTIVE THAN LARGE 'IF ELSE IF' STATEMENT 
+
+let num = 1
+switch(num) {
+    case 0:
+        console.log("number is zero");
+        break;
+    case 1:
+        console.log("we are number one");
+    case 4:
+        console.log("we are at 4");
+    case 10:
+        console.log("we made it to ten")
+        break;
+    default:
+        console.warn("not here");
+}
+
