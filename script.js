@@ -165,8 +165,4 @@ for (let FB = 0; FB <= 100; FB++){
     }
 }
 
-for (let g = 0); g <=100; g ++){
-    console.log(`g = ${g}`)
-let g= 0
-let fizzbuzz = g%3 == 0
-}
+
