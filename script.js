@@ -116,12 +116,57 @@ console.log(totalMoney, totalLeftToPay);
 
 // create a method that can print out the numbers 1- 10 ten times each 
 
-let m = 100;
-while (m <=200) {
-    if (a % 2 == 0){
-        console.log("-");
-    } else {
-        console.log("*");
+// let m = 100;
+// while (m <=200) {
+//     if (a % 2 == 0){
+//         console.log("-");
+//     } else {
+//         console.log("*");
+//     }
+//     m++;
+// }
+
+// TRUTHY FALSEY TASK QA
+let strictA = true;
+let strictB = false;
+console.log(strictA == strictB); // comes back true
+console.log(strictA === strictB); // comes back false
+
+//consider what the following statements would be 
+//answer= it would eb the opposite beacuse of the !
+// console.log(strictA != strcitB); // comes back false 
+// console.log(strictA !== strictB); //comes back true
+
+//create an IF statement that staifies the following 
+// let age = 10;
+// if(age >= 18 && age <= 65) {
+//     console.log("age is in range");
+// } else if (age < 18) {
+//     console.log("underage");
+// } else {
+//     console.log("catch all else")
+// }
+// //4. ternary if syntax white code that checks if age is above 50
+// let agee = 100
+// let result = agee >=50 ? "50 or over " : "under 50"
+// console.log(result);
+
+
+//FIZZ BUZZ TASK
+
+for (let FB = 0; FB <= 100; FB++){
+    console.log(`FB = ${FB}`)
+    if (FB%3 == 0){
+        console.log("fizz");
+    }else if (FB%5 == 0) {
+        console.log("buzz");
+    }else {
+        console.log(FB)
     }
-    m++;
+}
+
+for (let g = 0); g <=100; g ++){
+    console.log(`g = ${g}`)
+let g= 0
+let fizzbuzz = g%3 == 0
 }
