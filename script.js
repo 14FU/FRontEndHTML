@@ -158,9 +158,11 @@ for (let FB = 0; FB <= 100; FB++){
     console.log(`FB = ${FB}`)
     if (FB%3 == 0){
         console.log("fizz");
+    }else if (FB%5 == 0, FB%3 ==0 ){
+        console.log("fizzbuzz");
     }else if (FB%5 == 0) {
         console.log("buzz");
-    }else {
+    }else{
         console.log(FB)
     }
 }
